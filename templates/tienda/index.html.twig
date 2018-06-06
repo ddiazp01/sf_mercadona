@@ -1,0 +1,41 @@
+{% extends 'tienda/base.html.twig' %}
+
+
+
+{% block body %}
+
+<div class="container">
+	<div class="card-deck container-fluid">
+		
+	<div class="row">
+{% for producto in productos %}
+            
+         <div class="col15">
+     <a href="#"> <div class="card">    
+	    <img class="card-img-top" src="imagenes/{{ producto.url }}" alt="Card image cap">
+	    <div class="card-body">
+	    	
+	      <div class="texto"><h5 class="card-title">{{producto.nombre}}</h5></div>
+	       <p class="card-text">{{producto.descripcion}}</p> 
+	      <p><b>{{producto.precio}} €</b><text class="text-muted">/ud.</text></p>
+	      <div class="text-center">
+	      <hr>
+	      <button type="button" class="btn btn-danger">Añadir al carro</button>
+	      </div>
+
+    	</div>
+    	</a>
+    </div>
+    </div>
+
+    
+
+        {% endfor %}
+  </div>
+  </div>
+  </div>
+
+
+
+
+{% endblock %}

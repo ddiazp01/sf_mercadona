@@ -1,0 +1,138 @@
+input[type=text]{
+    width:100%;
+    border:1px solid #aaa;
+    border-radius:20px;
+    margin:8px 0;
+    outline:none;
+    padding:16px;
+    box-sizing:border-box;
+    transition:.3s;
+    background-color: hsla(40,6%,90%,.3);
+    height:35px;
+
+  }
+ 
+  .inputWithIcon input[type=text]{
+    padding-left:40px;
+
+  }
+  
+  .inputWithIcon{
+    position:relative;
+  }
+  
+  .inputWithIcon i{
+    position:absolute;
+    left:0;
+    top:7.5px;
+    padding:9px 8px;
+    color:#aaa;
+    transition:.3s;
+  }
+  
+input[type=text]:focus{
+    border-color:#00ab61;
+    
+  }
+.nav-link{
+  margin-left:40px;
+  letter-spacing: -.1px; 
+  color: #878787;
+  display: block;
+  
+  font-size: 15px;
+}
+
+.nav-link:hover{
+  color: black;
+  font-size:  15px;
+  border-bottom: solid;
+  border-color: #00ab61;
+}
+span{
+  color: #878787;
+}
+img{
+  margin:20px;
+}
+nav{
+  border-bottom: solid 1px #e6e6e6;
+  background-color: white;
+
+}
+body{
+  margin-top: 90px;
+}
+  
+.col15 {
+  width: 20%;
+  margin-top: 10px;
+}
+
+
+.container>.card-deck>.row>.col15>.card>a>img{
+ 
+ margin-left: 12px;
+ width: 92%;
+ 
+}
+
+
+.container>.card-deck>.row>.col15>.card>a>.card-body>p{
+  font-size: 14px;
+  color: #878787;
+}
+
+
+.container>.card-deck>.row>.col15>.card>a>.card-body>h5:nth-of-type(2){
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-body button{
+  background-color: white;
+  color: #714000;
+  border: 1px solid #fcb831;
+  border-radius: 100px;
+  width: 100%;
+  height: 32px;
+  font-size: 15px;
+  line-height: 18px;
+
+}
+
+.card-body button:hover{
+  background-color: rgba(252,184,49,.4);;
+  color: #714000;
+  border: 1px solid #fcb831;
+  border-radius: 100px;
+  width: 100%;
+
+}
+
+.card{
+  
+  min-height: 100%;
+  border-radius: 10px;
+}
+
+div>h5:first-child{
+  font-size: 15px;
+
+}
+
+.texto{
+  height: 56px;
+}
+.card-body>p>b{
+  color: black;
+}
+
+a{
+  color: black;
+
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
